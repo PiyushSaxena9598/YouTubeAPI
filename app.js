@@ -1,9 +1,9 @@
 const express=require('express');
 const app=express();
 const mongoose=require('mongoose');
-const userRoute=require('../API/routs/user');
-const videoRoute=require('../API/routs/video');
-const commentRoute=require('../API/routs/comment')
+const userRoute=require('./routs/user');
+const videoRoute=require('./routs/video');
+const commentRoute=require('./routs/comment')
 const bodyParser=require('body-parser');
 const fileUpload=require('express-fileupload');
 const cors=require('cors')
